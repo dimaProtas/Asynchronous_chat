@@ -1,0 +1,16 @@
+items:
+- computer
+- printer
+- keyboard
+- mouse
+items_quantity: 4
+items_ptice:
+  computer: 800€-1000€
+  printer: 1000€-1500€
+  keyboard: 500€-1000€
+  mouse: 400€-500€
+items_description:
+  iPhone: Apple
+  MacBook: Apple
+  Nintendo: Nintendo
+  Xbox: Micrasoft
