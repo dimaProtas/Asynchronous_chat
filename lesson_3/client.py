@@ -2,9 +2,9 @@ import sys
 import json
 import socket
 import time
-from variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
+from lesson_3.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from utils import get_message, send_message
+from lesson_3.utils import get_message, send_message
 
 
 def create_presence(account_name='dima_protasevich'):
