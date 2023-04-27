@@ -1,0 +1,24 @@
+2023-04-19 10:51:46,795 INFO server.py Установлено соедение с ПК ('127.0.0.1', 50484)
+2023-04-19 10:51:46,801 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50484)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2023-04-19 10:51:46,801 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1681890706.7950435, 'user': {'account_name': 'dima_protasevich'}}
+2023-04-19 10:51:46,802 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1681890706.7950435, 'user': {'account_name': 'dima_protasevich'}}
+2023-04-19 10:51:46,805 DEBUG decos.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1681890706.7950435, 'user': {'account_name': 'dima_protasevich'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-04-19 10:51:46,805 INFO server.py Cформирован ответ клиенту {'response': 400, 'error': 'Bad Request'}
+2023-04-19 10:51:46,808 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50484)>, {'response': 400, 'error': 'Bad Request'}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2023-04-19 10:51:46,808 DEBUG server.py Соединение с клиентом ('127.0.0.1', 50484) закрывается.
+2023-04-19 10:55:38,998 INFO server.py Установлено соедение с ПК ('127.0.0.1', 50557)
+2023-04-19 10:55:39,003 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50557)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2023-04-19 10:55:39,003 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1681890938.9979737, 'user': {'account_name': 'dima_protasevich'}}
+2023-04-19 10:55:39,004 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1681890938.9979737, 'user': {'account_name': 'dima_protasevich'}}
+2023-04-19 10:55:39,006 DEBUG decos.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1681890938.9979737, 'user': {'account_name': 'dima_protasevich'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-04-19 10:55:39,006 INFO server.py Cформирован ответ клиенту {'response': 400, 'error': 'Bad Request'}
+2023-04-19 10:55:39,009 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50557)>, {'response': 400, 'error': 'Bad Request'}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2023-04-19 10:55:39,010 DEBUG server.py Соединение с клиентом ('127.0.0.1', 50557) закрывается.
+2023-04-19 11:00:22,631 INFO server.py Установлено соедение с ПК ('127.0.0.1', 50599)
+2023-04-19 11:00:22,635 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50599)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2023-04-19 11:00:22,635 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1681891222.63064, 'user': {'account_name': 'dima_protasevich'}}
+2023-04-19 11:00:22,636 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1681891222.63064, 'user': {'account_name': 'dima_protasevich'}}
+2023-04-19 11:00:22,637 DEBUG decos.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1681891222.63064, 'user': {'account_name': 'dima_protasevich'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-04-19 11:00:22,638 INFO server.py Cформирован ответ клиенту {'response': 400, 'error': 'Bad Request'}
+2023-04-19 11:00:22,639 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50599)>, {'response': 400, 'error': 'Bad Request'}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
+2023-04-19 11:00:22,640 DEBUG server.py Соединение с клиентом ('127.0.0.1', 50599) закрывается.
