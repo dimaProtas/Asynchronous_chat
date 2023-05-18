@@ -8,6 +8,8 @@ def get_data():
     os_name_list = []
     os_code_list = []
     os_type_list = []
+    os_name_comp = []
+    os_data_install_system = []
     main_data = []
 
     for i in range(1, 4):
@@ -30,7 +32,17 @@ def get_data():
         os_type_reg = re.compile(r'Тип системы:\s*\S*')
         os_type_list.append(os_type_reg.findall(data)[0].split()[2])
 
-    headers = ['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']
+
+        #Имя узла
+        os_name_computer = re.compile(r'Имя узла:\s*\S*')
+        os_name_comp.append(os_name_computer.findall(data)[0].split()[2])
+
+
+        #Дата установки
+        os_data_install = re.compile(r'Дата установки:\s*\S*')
+        os_data_install_system.append(os_data_install.findall(data)[0].split()[2])
+
+    headers = ['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы', 'Имя компьютера', 'Дата установки']
     main_data.append(headers)
 
     j = 1
@@ -41,6 +53,8 @@ def get_data():
         row_data.append(os_name_list[i])
         row_data.append(os_code_list[i])
         row_data.append(os_type_list[i])
+        row_data.append(os_name_comp[i])
+        row_data.append(os_data_install_system[i])
         main_data.append(row_data)
         j += 1
     return main_data

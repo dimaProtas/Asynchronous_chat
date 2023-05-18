@@ -1,4 +1,4 @@
-Имя узла:                         Comp1
+Имя узла:                         Comp3
 Название ОС:                      Microsoft Windows 8.1 Professional
 Версия ОС:                        сборка 10001
 Изготовитель ОС:                  Microsoft Corporation

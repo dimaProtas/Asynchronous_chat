@@ -61,3 +61,32 @@ yandex.ru - Узел доступен
 192.168.0.100 - Узел доступен
 192.168.0.101 - Узел недоступен
 """
+
+
+#Мой вариант(нейро сеть)
+# import subprocess
+# from ipaddress import ip_address
+#
+# def host_ping(hosts):
+#     for host in hosts:
+#         try:
+#             ip = ip_address(host)
+#         except ValueError:
+#             print(f"Invalid address: {host}")
+#             continue
+#         ping_cmd = f"ping {str(ip)} -n 1"
+#         try:
+#             output = subprocess.check_output(ping_cmd, shell=True, universal_newlines=True)
+#             if "Reply" in output:
+#                 print(f"{host} is available.")
+#             elif "timed out" in output:
+#                 print(f"{host} is not available.")
+#             else:
+#                 print(f"Unknown error: {output}")
+#         except subprocess.CalledProcessError as e:
+#             print(f"Error pinging {host}: {e}")
+#
+#
+# if __name__ == '__main__':
+#     ip_addresses = ['yandex.ru', '2.2.2.2', '192.168.0.100', '192.168.0.101']
+#     host_ping(ip_addresses)

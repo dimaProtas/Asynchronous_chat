@@ -1,4 +1,4 @@
-Имя узла:                         Comp1
+Имя узла:                         Comp2
 Название ОС:                      Microsoft Windows 10 Professional
 Версия ОС:                        16299
 Изготовитель ОС:                  Microsoft Corporation

@@ -21,3 +21,16 @@ write_order_to_json('iPhone 14', '2', '82000', 'Hakimi Ashraf', '5.04.2023')
 write_order_to_json('MacBook Pro', '1', '120000', 'Messi Leonel', '6.04.2023')
 write_order_to_json('Nintendo', '4', '62000', 'Zinedin Zidan', '7.04.2023')
 write_order_to_json('Xbox', '2', '59000', 'Федор Смолов', '4.03.2023')
+
+
+#Мой вариант записи в json файл
+def write_json(name, year, job, bonus):
+    with open('bonus.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        resullt = data['bonus']
+        info = {'name': name, 'year': year, 'job': job, 'bonus': bonus}
+        resullt.append(info)
+    with open('bonus.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+
+write_json('Dima', '31', 'couch', '5000')
