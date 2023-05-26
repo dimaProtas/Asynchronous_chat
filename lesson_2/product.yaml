@@ -1,0 +1,16 @@
+items:
+- iPhone
+- MacBook
+- Nintendo
+- Xbox
+items_quantity: 4
+items_ptice:
+  iPhone: 800€-1000€
+  MacBook: 1000€-1500€
+  Nintendo: 500€-1000€
+  Xbox: 400€-500€
+items_description:
+  iPhone: Apple
+  MacBook: Apple
+  Nintendo: Nintendo
+  Xbox: Micrasoft
